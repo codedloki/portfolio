@@ -78,9 +78,11 @@ export default function Navbar() {
           </button>
 
           {/* Right Icon */}
-          <div className="hidden md:block">
-            <SquareTerminal className="text-[#00ff44]" size={24} />
-          </div>
+          <button>
+            <div className="hidden md:block">
+              <SquareTerminal className="text-[#00ff44]" size={24} />
+            </div>
+          </button>
         </div>
 
         {/* Mobile Navigation */}

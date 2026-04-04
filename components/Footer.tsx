@@ -33,13 +33,13 @@ export function Footer() {
           </span>
         </Link>
 
-        <button
+        <a
           onClick={scrollToTop}
           className="flex items-center gap-2 hover:text-[#00ff44] transition-colors bg-transparent border-none p-0 cursor-pointer outline-none uppercase"
         >
           <MaterialSymbolsArrowShapeUp />
           BACK TO TOP
-        </button>
+        </a>
       </div>
     </footer>
   );
