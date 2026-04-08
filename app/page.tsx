@@ -39,9 +39,11 @@ export default function Home() {
               >
                 View Projects
               </Link>
-              <button className="px-6 py-2.5 bg-transparent border border-[#00ff44] text-[#00ff44] rounded-md text-xs uppercase hover:bg-core-green/10 transition">
-                Read the Blog
-              </button>
+              <Link href="https://blog.codedloki.is-a.dev">
+                <button className="px-6 py-2.5 bg-transparent border border-[#00ff44] text-[#00ff44] rounded-md text-xs uppercase hover:bg-core-green/10 transition">
+                  Read the Blog
+                </button>
+              </Link>
             </div>
           </div>
 
